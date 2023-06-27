@@ -1,0 +1,75 @@
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 15px 5%;
+    background-color: #50577A;
+    border-bottom: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 800;
+}
+
+.navbar .app-logo {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    padding-right: 20px
+}
+.navbar .app-logo span{
+    color: black;
+}
+.navbar .navbar-head {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.navbar-head li {
+    display: inline-block;
+    margin-left: 8px;
+  }
+  .navbar-head li:first-child {
+    margin-left: 0;
+  }
+.navbar .navbar-head a {
+    color: #fff;
+    display: inline-block;
+    font-size: 17px;
+    margin: 0 1rem ;
+    width: 100%;
+}
+.navbar .navbar-head a:hover {
+    color: black;
+}
+.navbar .navbar-head a::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid var;
+}
+.navbar-item {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: right;
+    line-height: 24px;
+}
+.navbar .hamburger a {
+    font-size: 3.0rem;
+    color: #fff;
+    margin: 0 0.5rem;
+}
+.navbar .hamburger a:hover {
+    color:black;
+}
+
+
+
+
+
+
+
+

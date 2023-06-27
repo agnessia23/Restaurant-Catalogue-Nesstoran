@@ -1,0 +1,48 @@
+:root{
+    --primary: #D8E9A8;
+    --bg: black;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+    color: #fff;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+}
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #f1f1f1;
+    padding: 10px;
+    z-index: 9999;
+  }
+  .skip-link a {
+    color: #333;
+    text-decoration: none;
+  }
+
+.skip-link:focus {
+    top: 0;
+    transition: all 0.4s;
+}
+a,input,text,textarea {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 10px; /* Jarak antara elemen */
+    margin-bottom: 10px; /* Jarak antara elemen */
+}

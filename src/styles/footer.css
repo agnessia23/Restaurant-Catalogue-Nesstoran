@@ -1,0 +1,9 @@
+footer{
+    font-family: 'Poppins', sans-serif;
+    background-color: #50577A;
+    padding: 2rem;
+}
+footer p {
+    font-size: 1.5em;
+    text-align: center;
+}
